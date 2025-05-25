@@ -2,13 +2,15 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatilble" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Charles</title>
 </head>
 <body>
-    <h1>
 
+    <h1>Código de Banco de Dados</h1>
+
+    <pre><code>
 create database faculdade;
 use faculdade;
 
@@ -99,7 +101,8 @@ create table turma_aluno (
     constraint fk_turma_aluno_curso foreign key (id_curso) references curso(id_curso), 
     constraint fk_turma_aluno_turma foreign key (id_turma) references turma(id_turma)
 );
+    </code></pre>
 
-    </h1>
 </body>
 </html>
+
